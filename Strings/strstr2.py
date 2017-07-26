@@ -10,8 +10,8 @@ class Solution:
         needleSize = len(needle)
         haystackSize = len(haystack)
 
-        print("needleSize: ", needleSize)
-        print("haystackSize: ", haystackSize)
+        # print("needleSize: ", needleSize)
+        # print("haystackSize: ", haystackSize)
         if not needle:
             return -1
         if not haystack:
